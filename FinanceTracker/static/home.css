@@ -1,0 +1,124 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+    background-image: url('Home1.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+  }
+  header {
+    background-color: #202E44;
+    color: #fff;
+    padding: 10px 0;
+    /*border-radius: 0px 50px 50px 0px;
+    width: 98%;*/
+  }
+  header a {
+    color: #fff;
+    text-decoration: none;
+  }
+  header .navbar-nav .nav-item:hover .nav-link {
+    color: white;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  .logo { 
+    height: 40px; 
+    width: 100px;
+  }
+  .main-layout {
+    width: 70%;
+    padding: 20px 0 0;
+  }
+  .main-layout h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  .main-layout h2 {
+    font-size: 2em;
+    color: #343a40;
+    margin-bottom: 15px;
+  }
+  .main-layout p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+  }
+  .container img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .side-layout {
+    width: 30%;
+    padding: 20px 0 0;
+    background-color: #f8f9fa;
+  }
+  footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0px;
+    text-align: center;
+    clear: both;
+  }
+
+  .custom-card {
+    background-color: #f8f9fa; /* Card background color */
+    color: #343a40; /* Text color */
+    border: none;
+  }
+
+  .custom-list-item {
+    background-color: #a9bbc8; /*  343a40 List item background color */
+    color: #f8f9fa; /* List item text color */
+    border: none;
+  }
+
+  #unique-article .list-group-item {
+    background-color: #00B6E8; /* Yellow background */
+    color: #f8f9fa; /* Dark text color */
+    border-radius: 15px;
+    margin: 5px;
+  }
+
+  .dropdown-menu {
+    border: none;
+    border-radius: 0.375rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-item {
+    color: #333;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+  }
+
+  @media (min-width: 360px) {
+    img {
+        margin: 10px;
+    }
+    .side-layout{
+        display:inline;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .main-layout, .side-layout {
+      float: left;
+    }
+  }
+
+  .small{
+    width: 611px;
+    height: auto;
+  }

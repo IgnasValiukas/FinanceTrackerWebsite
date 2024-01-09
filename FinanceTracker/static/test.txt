@@ -1,0 +1,19 @@
+setTextColor('white'); // Set text color to white
+        setCardBodyBackgroundColor('#121212'); // Change to your desired dark theme card body background-color
+        setSideLayoutBackgroundColor('#121212'); // Change to your desired dark theme side layout background-color
+        setOlBackgroundColor('#343a40'); // Change to your desired dark theme ol background-color
+        setCustomListItemBackgroundColor('#343a40'); // Change to your desired dark theme custom list item background-color
+        setLabelColor('white');
+        setContactFormInputStyles('white', '#343a40');
+        setLiBackgroundColor('#705d97');
+
+
+
+        setTextColor(''); // Reset to default text color
+        setCardBodyBackgroundColor(''); // Reset to default card body background-color
+        setSideLayoutBackgroundColor(''); // Reset to default side layout background-color
+        setOlBackgroundColor(''); // Reset to default ol background-color
+        setCustomListItemBackgroundColor(''); // Reset to default custom list item background-color
+        setLabelColor('');
+        setContactFormInputStyles('', '');
+        setLiBackgroundColor('');
